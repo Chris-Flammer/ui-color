@@ -6298,10 +6298,10 @@ a:hover {
 .navbar {
   padding: 20px 0;
 }
-.navbar .navbar-brand {
+.navbar .navbar-logo {
   padding: 0;
 }
-.navbar .navbar-brand .logo {
+.navbar .navbar-logo .logo {
   max-height: 90px;
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
@@ -6313,7 +6313,7 @@ a:hover {
   transition-property: transform;
   overflow: hidden;
 }
-.navbar .navbar-brand .logo:hover {
+.navbar .navbar-logo .logo:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
@@ -6362,12 +6362,17 @@ a:hover {
 .footer {
   padding: 25px 0;
 }
-/* Smartphones (portrait and landscape) */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  body {
+/* @group Import Responsive LESS */
+@media all and (max-width: 767px) {
+  .navbar .navbar-logo {
     padding: 0;
+  }
+  .navbar .navbar-logo .logo {
+    max-height: 120px;
+    margin: 0 auto !important;
   }
   .footer {
     padding: 10px 0;
   }
 }
+/* @end Import Responsive LESS */

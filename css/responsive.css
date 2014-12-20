@@ -1,0 +1,12 @@
+@media all and (max-width: 767px) {
+  .navbar .navbar-logo {
+    padding: 0;
+  }
+  .navbar .navbar-logo .logo {
+    max-height: 120px;
+    margin: 0 auto !important;
+  }
+  .footer {
+    padding: 10px 0;
+  }
+}
