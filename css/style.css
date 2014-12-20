@@ -6364,8 +6364,14 @@ a:hover {
 }
 /* @group Import Responsive LESS */
 @media all and (max-width: 767px) {
+  .hex-to-uicolor {
+    min-height: 0;
+  }
   .hex-to-uicolor .input-group-addon {
     min-width: 60px;
+  }
+  .navbar {
+    padding-bottom: 0;
   }
   .navbar .navbar-logo {
     padding: 0;
@@ -6373,6 +6379,13 @@ a:hover {
   .navbar .navbar-logo .logo {
     max-height: 120px;
     margin: 0 auto !important;
+  }
+  .navbar .nav > li {
+    width: 50%;
+    float: left;
+    margin: 20px 0 0 0;
+    padding: 0 10px;
+    text-align: center;
   }
   .footer {
     padding: 10px 0;
