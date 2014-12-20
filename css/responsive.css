@@ -1,4 +1,7 @@
 @media all and (max-width: 767px) {
+  .hex-to-uicolor .input-group-addon {
+    min-width: 60px;
+  }
   .navbar .navbar-logo {
     padding: 0;
   }
