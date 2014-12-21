@@ -6494,6 +6494,7 @@ a:hover {
 }
 .colorpicker .dropdown-menu {
   background-color: #d9d9d9;
+  padding: 8px;
 }
 .colorpicker .dropdown-menu::before,
 .colorpicker .dropdown-menu::after {
@@ -6507,15 +6508,10 @@ a:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  border: 1px solid #a6a6a6;
 }
 .colorpicker colorpicker-preview {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  height: 15px;
+  height: 0;
 }
 .colorpicker .close {
   filter: alpha(opacity=100);
