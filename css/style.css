@@ -6295,6 +6295,11 @@ a:hover {
   /*color: ;*/
   text-decoration: none;
 }
+.title {
+  color: #0072bc;
+  text-align: center;
+  font-weight: 300;
+}
 .navbar {
   padding: 20px 0;
 }
@@ -6358,9 +6363,18 @@ a:hover {
 .hex-to-uicolor .color-demo svg {
   margin: 10px 0 5px 0;
 }
-/* Custom page footer */
+/*
+*  Footer
+*/
 .footer {
   padding: 25px 0;
+}
+.footer .social {
+  padding: 10px 0;
+}
+.footer .social .fa {
+  margin: 0 5px;
+  font-size: 26px;
 }
 /* @group Import Responsive LESS */
 @media all and (max-width: 767px) {
@@ -6371,6 +6385,7 @@ a:hover {
     min-width: 60px;
   }
   .navbar {
+    padding: 20px 15px;
     padding-bottom: 0;
   }
   .navbar .navbar-logo {
@@ -6380,8 +6395,11 @@ a:hover {
     max-height: 120px;
     margin: 0 auto !important;
   }
+  .navbar .nav {
+    margin: 10px 0;
+  }
   .navbar .nav > li {
-    width: 50%;
+    width: 100%;
     float: left;
     margin: 20px 0 0 0;
     padding: 0 10px;
