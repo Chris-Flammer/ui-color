@@ -6474,6 +6474,53 @@ a:hover {
   background-color: #0072bc;
   border-color: #0072bc;
 }
+.code-block {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  background-color: #f7f7f9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 20px 0;
+  position: relative;
+}
+.code-block span {
+  display: block;
+  padding: 20px 50px 20px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.code-block button {
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 0;
+  background-color: #8d8d8d;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.code-block button:hover,
+.code-block button:active,
+.code-block button:focus {
+  background-color: #737373;
+  color: #ffffff;
+}
 .navbar {
   padding: 20px 0;
 }
