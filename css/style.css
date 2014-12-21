@@ -6521,14 +6521,16 @@ a:hover {
   background-color: #737373;
   color: #ffffff;
 }
-.navbar {
+.header {
   padding: 20px 0;
 }
-.navbar .navbar-logo {
-  padding: 0;
-}
-.navbar .navbar-logo .logo {
-  max-height: 90px;
+.header .logo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
   -o-transition-duration: 0.8s;
@@ -6539,36 +6541,10 @@ a:hover {
   transition-property: transform;
   overflow: hidden;
 }
-.navbar .navbar-logo .logo:hover {
+.header .logo:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
-}
-.navbar .nav > li {
-  margin: 20px 15px;
-}
-.navbar .nav > li a {
-  border: 1px solid #a6a6a6;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.navbar .nav > li a:hover,
-.navbar .nav > li a:focus {
-  background: none;
-  border-color: #0072bc;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-}
-.navbar .nav > li a.active {
-  border-color: #0072bc;
 }
 /*
 *  HEX to UIColor Page
