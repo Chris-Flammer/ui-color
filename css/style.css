@@ -6482,6 +6482,13 @@ a:hover {
   /*color: ;*/
   text-decoration: none;
 }
+.github-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 100;
+}
 .title {
   color: #0072bc;
   text-align: center;
