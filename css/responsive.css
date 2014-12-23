@@ -1,8 +1,8 @@
 @media all and (max-width: 767px) {
-  .hex-to-uicolor {
+  .converter {
     min-height: 0;
   }
-  .hex-to-uicolor .input-group-addon {
+  .converter .input-group-addon {
     min-width: 70px;
   }
   .navbar {

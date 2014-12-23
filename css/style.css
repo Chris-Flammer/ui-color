@@ -6586,7 +6586,8 @@ a:hover {
   padding: 20px 20px 5px 0;
 }
 .header {
-  padding: 20px 0;
+  padding: 30px 0 15px 0;
+  text-align: center;
 }
 .header .logo {
   border-radius: 50%;
@@ -6610,18 +6611,21 @@ a:hover {
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
 }
+.header .toggle-nav {
+  margin: 40px 0 20px 0;
+}
 /*
-*  HEX to UIColor Page
+*  Converter for both HEX & RGB
 */
-.hex-to-uicolor {
+.converter {
   min-height: 340px;
   margin: 30px 0;
 }
-.hex-to-uicolor .color-demo {
+.converter .color-demo {
   margin-top: 20px;
   margin-bottom: 15px;
 }
-.hex-to-uicolor .color-demo svg {
+.converter .color-demo svg {
   margin: 10px 0 5px 0;
 }
 /*
@@ -6629,6 +6633,7 @@ a:hover {
 */
 .footer {
   padding: 25px 0;
+  margin-bottom: 20px;
 }
 .footer .social {
   padding: 10px 0;
@@ -6639,10 +6644,10 @@ a:hover {
 }
 /* @group Import Responsive LESS */
 @media all and (max-width: 767px) {
-  .hex-to-uicolor {
+  .converter {
     min-height: 0;
   }
-  .hex-to-uicolor .input-group-addon {
+  .converter .input-group-addon {
     min-width: 70px;
   }
   .navbar {
