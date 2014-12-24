@@ -6627,8 +6627,8 @@ a:hover {
 *  Converter for both HEX & RGB
 */
 .converter {
-  min-height: 340px;
-  margin: 30px 0;
+  min-height: 200px;
+  margin: 30px 0 0 0;
 }
 .converter .color-demo {
   margin-top: 20px;
