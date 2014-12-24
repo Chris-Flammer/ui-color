@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6472,6 +6473,10 @@ colorpicker-preview {
   clear: both;
   background-position: 0 100%;
 }
+body {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
 a {
   /*color: ;*/
   -webkit-transition: all .8s;
@@ -6488,6 +6493,13 @@ a:hover {
   right: 0;
   border: 0;
   z-index: 100;
+}
+.about {
+  padding: 10px 40px 20px 40px;
+}
+.about h3 {
+  text-align: center;
+  text-decoration: underline;
 }
 .title {
   color: #0072bc;
@@ -6610,9 +6622,6 @@ a:hover {
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
-}
-.header .toggle-nav {
-  margin: 40px 0 20px 0;
 }
 /*
 *  Converter for both HEX & RGB
